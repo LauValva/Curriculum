@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Lautaro Valvason">
+	<meta name="keywords" content="html,css,xml">
+	<meta name="description" content="Curriculum Vitae">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Curriculum Vitae Lautaro Valvason</title>
+</head>
+<body>
+<header>
+	<svg>
+		<image xlink:href="Image/Logo-Lau.svg" width="232px" height="141"></image>
+	</svg>
+	<h1>Hoja de Vida</h1>
+	<h2>Lautaro Valvason</h2>
+	<h3>Lugar de Nacimiento: Argentina</h3>
+	<h3>14-01-1992</h3>
+</header>
+
+<nav>
+	<ul>
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="educación.html">Educación</a></li>
+		<li><a href="experiencia.html">Experiencia</a></li>
+	</ul>
+</nav>
+
+<article>
+	<h2>Educación</h2>
+	<table border="1" cellpadding="10" cellspacing="0">
+		<thead>
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+				</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2010</td>
+				<td>Bernardino Rivadavia</td>
+				<td>Santa Fé</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2015</td>
+				<td>Secundaria Miguel Castellanos</td>
+				<td>Santa Fé</td>
+				<td>Si</td>
+			</tr>
+			<tr>
+				<td>2017</td>
+				<td>Next U</td>
+				<td>Miami</td>
+				<td>No</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>Agregar Estudios</h2>
+	<form>
+
+	<p>
+		<label>Año: <input type="number" name="año" min="1900" max="2017" title="Mínimo 1900 Máximo 2017"></label>
+	</p>
+
+	<p>
+	<label>Institución: <input type="text" name="institución" required></label>
+	</p>
+
+	<p>
+		<label>Lugar: <textarea name="lugar" rows="6" cols="20"></textarea></label>
+	</p>
+
+	<p>
+	¿Culminó? <label><input type="radio" name="culminó" value="si">Si</label> <label><input type="radio" name="culminó" value="no">No</label>
+	</p>
+
+	<p>
+	<input type="submit" value="Enviar">
+	</p>
+	</form>
+</article>
+
+<footer>
+<p>&#64; Derechos Reservados</p>
+<p><strong>Contacto</strong></p>
+	<ul>
+		<li><strong>Email:</strong> <a href="mailto:lautarovalvason@gmail.com" target="_blank">Lautaro Valvason</a></li>
+		<li><strong>Teléfono:</strong> +54 (04569) 478569</li>
+		<li><strong>Dirección:</strong>1234 Edificio 8. Santa Fé. Argentina.</li>
+	</ul>
+</footer>
+
+</body>
+</html>
